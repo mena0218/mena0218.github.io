@@ -1,0 +1,26 @@
+body {
+    background-color: paleturquoise;
+}
+/* changing color of header and h1 */
+header,h1 {
+    background-color:navy;
+    padding: 100px;
+    margin: 100px;
+    position: absolute;
+    color: darkblue;
+}
+main {
+    background-color:orange;
+    lighting-color: magenta;
+    height: 60px;
+}
+
+h1,h2,h3 {
+text-decoration:underline;
+text-decoration-color: gold;
+}
+section {
+border: 2px solid red;
+}
+
+
