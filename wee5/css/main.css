@@ -6,7 +6,6 @@ header,h1 {
     background-color:navy;
     padding: 100px;
     margin: 100px;
-    position: absolute;
     color: darkblue;
 }
 main {
@@ -20,7 +19,12 @@ text-decoration:underline;
 text-decoration-color: gold;
 }
 section {
-border: 2px solid red;
+border: 7px solid red;
 }
-
+#abootus {
+    background-color: hotpink;
+}
+section ul li:nth-child (odd) {
+    background-color: yellow;
+}
 
