@@ -5,7 +5,7 @@ body {
 #my-image {
     height: 500px;
     width: 400px;
-    box-shadow: 0px 0px 2px 1px black
+    box-shadow: 0px 0px 2px 1px black;
 }
 
 h1,footer {
