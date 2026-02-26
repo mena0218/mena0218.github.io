@@ -1,3 +1,83 @@
 body {
-    background-color:#aad4cf;
+    background-color:#AAD4CF;
+    font-family:Arial, Helvetica, sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+    
+}
+/* .ultimate = div tag enveloping the entire body */
+.ultimate {
+max-width: 700px 100px;
+background-color:#D4E9E7;
+}
+
+h1 {
+    color:white;
+    text-align: center;
+    font-size: 50px;
+}
+
+main {
+    margin: 5px;
+    border: 5px;
+}
+.starfishbanner {
+   padding: 10rem 10rem;
+    background-image:url(../images/lone-starfish-wide.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+}
+
+.navigation {
+    list-style-type: none;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+
+.toppings {
+    text-decoration: none;
+    color:black;
+    text-transform: uppercase;
+    font-size:x-large;
+    font-weight:300;
+}
+
+.image-float-left {
+    float: left;
+    width: 150px;
+    margin: 10px;
+}
+
+.border-box {
+    border: solid black 2px;
+}
+
+.ideal {
+    width: 90%;
+}
+
+.box_text_big {
+    width: 90%;
+    height: 100px;
+    box-sizing: border-box;
+}
+
+.radio-group {
+    display: flex;
+    justify-content: left;
+}
+
+button {
+    margin:20px;
+    padding: 10px;
+    border: solid black 2px;
+    background-color: #D4E9E7;
+}
+
+footer {
+    float:right;
+    background-color: #D4E9E7;
 }
