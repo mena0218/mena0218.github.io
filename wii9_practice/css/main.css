@@ -1,0 +1,57 @@
+html {
+    font-size: 14px;
+}
+
+main {
+    margin: 0 1rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+.bigger_viewport {
+    display: none;
+}
+
+img {
+    width: 100%;
+}
+
+.Learn {
+    background-color:orangered;
+    padding: 1rem;
+}
+
+iframe {
+    width:100%;
+}
+
+@media screen and (min-width:700px) {
+    html {
+        font-size:16px;
+    }
+    .small_viewport {
+        display: none;
+    }
+    .bigger_viewport {
+        display: block;
+    }
+    .banner {
+        position: relative;
+    }
+    .banner_content {
+        position: absolute;
+        top: 40%;
+        color:antiquewhite;
+        background-color: lightskyblue;
+    }
+}
